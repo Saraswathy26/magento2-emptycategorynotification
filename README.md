@@ -34,7 +34,7 @@ x
 #run the following commands in the CLI.
 
 #To Install the module in your local.
-<br><br>bin/composer require mageesh/module-emptycategorynotification
+<br><br>composer require mageesh/module-emptycategorynotification
 <br>bin/magento setup:upgrade
 <br>bin/magento setup:di:compile
 
