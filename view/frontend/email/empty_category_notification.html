@@ -1,0 +1,11 @@
+<!--@subject {{trans "Action Required: Empty Category Notification"}} @-->
+{{template config_path="design/email/header_template"}}
+<table>
+    <tr>{{trans "Dear %managerName," managerName=$managerName }}</tr>
+    <br><tr>{{trans "ERROR : Category page is not loading."}}</tr>
+    <br><tr>{{trans "Required Action to be taken - Please check search engine and try ReIndexing."}}</tr>
+    <br><tr>{{trans "Category Name: %categoryName." categoryName=$categoryName}}</tr>
+    <br><tr>{{trans "Category Url: %categoryUrl." categoryUrl=$categoryUrl}}</tr>
+    <br><tr>{{trans "Event Time: "}} {{var eventTime}}</tr>
+</table>
+{{template config_path="design/email/footer_template"}}
